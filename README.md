@@ -4,32 +4,6 @@ Author: Becky Clark, Feb 2022.
 ## Setup
 Prior to opening a notebook, run `pip3 install -e .` to install project requirements.
 
-## Project Navigation  
-
-│── conf               <- Configuration files  
-│
-├── notebooks          <- Notebook used to process data from BQ via GCS and apply models to predict JL profile.   
-│   │  
-│   ├── eda            <- Exploratory data analysis  
-│   ├── train          <- training models  
-│   └── predict        <- scoring script  
-│  
-├── references         <- Original survey questionnaire and precision/ recall curves.  
-│  
-│  
-└── src 
-    │                  
-    ├── gcs_processing.py
-    │                  <- transfer sharded tables between GCS & Python.
-    │                  
-    ├── pdp_tools.py   <- connect Python and Big Query functions.
-    │                  
-    ├── train.py
-    │  
-    ├── utils.py       <- general utility functions.  
-    │                 
-    └── predict.py     <- functions used to predict JL profile.  
-
 
 ## Instructions
 Attached you will find a csv file containing 36820 rows and the following columns
