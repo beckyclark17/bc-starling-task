@@ -1,9 +1,6 @@
 # Starling Fraud Data Science "Horses" task
 Author: Becky Clark, Feb 2022.
 
-## Setup
-Prior to opening a notebook, run `pip3 install -e .` to install project requirements.
-
 
 ## Instructions
 Attached you will find a csv file containing 36820 rows and the following columns
